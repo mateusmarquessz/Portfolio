@@ -1,0 +1,78 @@
+/* Estilos para o corpo do documento */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+  text-align: center;
+  background-color: transparent; /* Remova a cor de fundo do cabeçalho */
+  color: #FFF;
+  padding: 2rem 0;
+}
+
+/* Estilos para os projetos */
+#projects {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project {
+  flex: 1;
+  margin-bottom: 2rem;
+  border: 1px solid #000000;
+  padding: 1rem;
+  max-width: calc(33.33% - 1rem); /* Para exibir 3 projetos por linha */
+  box-sizing: border-box;
+}
+
+/* Estilizar links dentro dos projetos */
+.project a {
+  text-decoration: none; /* Remover sublinhado */
+  color: inherit; /* Herdar a cor do pai */
+}
+
+.project p {
+  margin-top: 0.5rem;
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+}
+
+.project h3 {
+  margin-top: 1rem;
+}
+
+/* Estilos para o conteúdo */
+.content {
+  flex: 1;
+  padding: 2rem;
+}
+
+/* Estilos para o wrapper */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Preencher a altura da viewport */
+  background: linear-gradient(to top, #7A00E6, #DAE600);
+}
+
+
+/* Estilos para o rodapé */
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: transparent; /* Remova a cor de fundo do rodapé */
+  color: #FFF;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+} 
