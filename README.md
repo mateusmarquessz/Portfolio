@@ -4,3 +4,5 @@
 
 ## Objetivo
 O objetivo foi desenvolver meu primeiro Portfolio com Intenções de treinar minhas habilidade de HTML CSS e Javascript
+
+PS: Falta adicionar algumas coisas e resolver alguns problemas
