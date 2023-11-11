@@ -6,9 +6,9 @@ body, html {
   padding: 0;
   height: 100%;
   background-color: rgb(137, 95, 229);
-  overflow: hidden;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 @media screen and (max-width: 600px) {

@@ -4,28 +4,36 @@ document.addEventListener("DOMContentLoaded", function() {
   fundos.forEach(function(fundo) {
       setTimeout(function() {
           fundo.style.opacity = "1";
-          
-          // Adiciona classe para movimento para a direita ou esquerda com base em uma probabilidade
+
           fundo.classList.add(Math.random() > 0.5 ? "movimento-direita" : "movimento-esquerda");
       }, Math.random() * 2000);
   });
 });
-var fundo = ["HI, I'M MATEUS", "HI, I'M MATEUS"];
 
-  // Obtém o elemento body
-  var body = document.body;
+var fundo = ["HI, I'M MATEUS", "HI, I'M MATEUS", "HI, I'M MATEUS","HI, I'M MATEUS", "HI, I'M MATEUS", "HI, I'M MATEUS","HI, I'M MATEUS", "HI, I'M MATEUS", "HI, I'M MATEUS","HI, I'M MATEUS", "HI, I'M MATEUS"];
 
-  // Itera sobre o array de frases
-  for (var i = 0; i < fundo.length; i++) {
-      // Cria um elemento de parágrafo
-      var paragrafo = document.createElement("p");
+var body = document.body;
 
-      // Adiciona a classe "frase" ao parágrafo
-      paragrafo.classList.add("fundo");
+for (var i = 0; i < fundo.length; i++) {
+  var paragrafo = document.createElement("p");
+  paragrafo.classList.add("fundo");
 
-      // Define o texto do parágrafo como a frase atual do array
-      paragrafo.textContent = fundo[i];
-
-      // Adiciona o parágrafo ao corpo da página
-      body.appendChild(paragrafo);
+  // Adiciona a classe "left" para metade das frases
+  if (i % 2 === 0) {
+    paragrafo.classList.add("left");
   }
+
+  paragrafo.textContent = fundo[i];
+  body.appendChild(paragrafo);
+}
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var workDiv = document.querySelector('.work');
+
+    workDiv.addEventListener('click', function() {
+      window.scrollTo({
+        top: document.body.scrollHeight,
+        behavior: 'smooth'
+      });
+    });
+  });

@@ -1,0 +1,33 @@
+#projects {
+    position: absolute;
+    top: 154%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+   
+}
+
+#projects h1 {
+    color: white;
+    position: absolute;
+    top: 0;
+}
+
+#projects div {
+    border: 1px solid white;
+    margin-top: 40px;
+}
+
+#projects a{
+    width: 10px;
+    margin: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none; /* remove o sublinhado */
+  }

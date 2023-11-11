@@ -10,11 +10,42 @@
 
 
 .fundo {
-    font-size: 150px;
-    letter-spacing: 80px;
+    font-size: 155px;
+    letter-spacing: 30px;
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 2s ease-out, transform 2s ease-out;
     position: relative;
+    margin: -30px;
+    font-weight: bold;
   }
-  
+
+  .fundo {
+    white-space: nowrap;
+    animation: moveRight 5s linear infinite;
+  }
+
+  .fundo.left {
+    animation-name: moveLeft;
+  }
+  body {
+    overflow-x: hidden; /* Impede a barra de rolagem horizontal */
+    overflow-y: auto;   /* Permite a rolagem vertical */
+  }
+  @keyframes moveRight {
+    0% {
+      left: -100%;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+
+  @keyframes moveLeft {
+    0% {
+      right: -100%;
+    }
+    100% {
+      right: 100%;
+    }
+  }
