@@ -68,7 +68,24 @@ h1 {
     border: 2px solid black;
     box-shadow: 8px 7px 0px 0px #000000;
   }
+.work h2::after {
+  content: "\f107";
+  margin-left: 10px; 
+  color: #F57E00; 
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  position: relative;
+  animation: moveDown 1s infinite;
+}
 
+  @keyframes moveDown {
+    0%, 100% {
+        top: 0;
+    }
+    50% {
+        top: 10px;
+    }
+}
 .aaaaaa{
   font-size: 52px;
 }
