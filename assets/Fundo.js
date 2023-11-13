@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }, Math.random() * 2000);
   });
 
-  const fundoText = ["HI, I'M MATEUS", "HI, I'M MATEUS", "HI, I'M MATEUS", "HI, I'M MATEUS", "HI, I'M MATEUS", "HI, I'M MATEUS", "HI, I'M MATEUS", "HI, I'M MATEUS", "HI, I'M MATEUS", "HI, I'M MATEUS", "I'M MATEUS"];
+  const fundoText = ["HI, I'M MATEUS", "HI, I'M MATEUS", "HI, I'M MATEUS", "HI, I'M MATEUS", "HI, I'M MATEUS", "HI, I'M MATEUS", "HI, I'M MATEUS", "HI, I'M MATEUS"];
   const body = document.body;
 
   for (let i = 0; i < fundoText.length; i++) {
