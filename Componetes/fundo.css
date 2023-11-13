@@ -19,9 +19,6 @@
     position: relative;
     margin: -30px;
     font-weight: bold;
-  }
-
-  .fundo {
     white-space: nowrap;
     animation: moveRight 5s linear infinite;
   }
