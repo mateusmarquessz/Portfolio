@@ -70,7 +70,7 @@ h1 {
   }
 .work h2::after {
   
-  content: "\f107";
+  content: "\1F817";
   margin-left: 10px; 
   color: #F57E00; 
   font-family: 'Font Awesome\ 5 Free';
