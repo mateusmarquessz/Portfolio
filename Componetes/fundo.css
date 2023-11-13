@@ -1,13 +1,14 @@
-/* Estilos adicionais para movimento direita */
 .movimento-direita {
-    transform: translateY(0) translateX(100px);
+  animation: moveRight 4s alternate infinite ease-in-out;
 }
 
-/* Estilos adicionais para movimento esquerda */
 .movimento-esquerda {
-    transform: translateY(0) translateX(-100px);
+  animation: moveLeft 4s alternate infinite ease-in-out;
 }
 
+.nome-mateus {
+  color: #DFD080;
+}
 
 .fundo {
     font-size: 155px;
@@ -29,8 +30,8 @@
     animation-name: moveLeft;
   }
   body {
-    overflow-x: hidden; /* Impede a barra de rolagem horizontal */
-    overflow-y: auto;   /* Permite a rolagem vertical */
+    overflow-x: hidden;
+    overflow-y: auto;
   }
   @keyframes moveRight {
     0% {
@@ -39,6 +40,11 @@
     100% {
       left: 100%;
     }
+
+    to {
+      transform: translateX(50%);
+      opacity: 1;
+  }
   }
 
   @keyframes moveLeft {
@@ -48,4 +54,8 @@
     100% {
       right: 100%;
     }
+    to {
+      transform: translateX(-50%);
+      opacity: 1;
+  }
   }

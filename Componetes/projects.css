@@ -8,7 +8,6 @@
     justify-content: center;
     align-items: center;
     background-color: #000000;
-   
 }
 
 #projects h1 {
@@ -20,6 +19,9 @@
 #projects div {
     border: 1px solid white;
     margin-top: 40px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 #projects a{
