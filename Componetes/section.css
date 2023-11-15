@@ -55,22 +55,21 @@ h1 {
       margin-top: 5px;
       margin-left: 15px;
       margin-bottom: 5px;
-      align-items: center;
   }
 }
 
 
   img {
-    max-width: 60%;
+    max-width: 100%;
     height: auto;
     margin-bottom: 300px;
   }
   
   @media (max-width: 600px) {
     img {
-      max-width: 100%;
+      max-width: 60%;
       height: auto;
-      margin-bottom: 300px;
+      margin-bottom: 0px;
     }
 }
 
