@@ -22,6 +22,10 @@ h1 {
   }
 }
 
+#geral{
+  display: flex;
+  flex-direction: column;
+}
   #Informacoes {
     position: absolute;
     top: 50%;
@@ -63,7 +67,7 @@ h1 {
   
   @media (max-width: 600px) {
     img {
-      max-width: 0%;
+      max-width: 100%;
       height: auto;
       margin-bottom: 300px;
     }
