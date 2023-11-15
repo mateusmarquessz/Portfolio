@@ -23,6 +23,16 @@
     animation: moveRight 5s linear infinite;
   }
 
+
+  @media screen and (max-width: 768px) {
+    .fundo {
+        font-size: 8vw;
+        letter-spacing: 0.5vw;
+        transform: translateY(1vw);
+        margin: 17.5vw;
+    }
+}
+
   .fundo.left {
     animation-name: moveLeft;
   }

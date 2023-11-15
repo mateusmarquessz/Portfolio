@@ -13,10 +13,10 @@ h1 {
 /* Media query para ajustes em telas menores */
 @media (max-width: 600px) {
   h1 {
-      height: 15vh;
+      height: 7vh;
       margin-top: 0.3em;
       margin-bottom: 0.3em;
-      margin-left: -1vw;
+      margin-left: -3vw;
       width: 6em;
       font-size: 2em;
   }
@@ -115,6 +115,14 @@ h1 {
     font-size: 25px;
   }
 
+  @media only screen and (max-width: 480px) {
+    .texts{
+      margin-left: 4px;
+      font-weight: bold;
+      font-size: 15px;
+    }
+  }
+
   .work {
     margin-top: 50px;
     margin-left: -5px;
@@ -151,4 +159,14 @@ h1 {
 
 .bbbbb{
   font-size: 25px;
+}
+
+@media screen and (max-width: 600px) {
+  .aaaaaa {
+    font-size: 2em;
+  }
+
+  .bbbbb {
+    font-size: 1.25em;
+  }
 }
