@@ -88,12 +88,25 @@ h1 {
   }
 }
 
-  
   .content {
     height: 96vh;
     width: 70vw;
     padding: 1rem;
     box-shadow: 0px 0px 15px black;
+}
+
+@media only screen and (max-width: 768px) {
+  .content {
+      /* Add styles for smaller screens here */
+      width: 76vw;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .content {
+      /* Add styles for even smaller screens here */
+      width: 76vw;
+  }
 }
 
   .texts{
