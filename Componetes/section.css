@@ -10,7 +10,7 @@ h1 {
   font-size: 3em; 
 }
 
-/* Media query para ajustes em telas menores */
+
 @media (max-width: 600px) {
   h1 {
       height: 7vh;
