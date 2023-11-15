@@ -3,7 +3,7 @@ h1 {
   margin-top: 0.5em;
   margin-bottom: 0.5em; 
   margin-left: -4vw;
-  width: 7.7em;
+  width: 8em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,7 +17,7 @@ h1 {
       margin-top: 0.3em;
       margin-bottom: 0.3em;
       margin-left: -1vw;
-      width: 5.5em;
+      width: 6em;
       font-size: 2em;
   }
 }
