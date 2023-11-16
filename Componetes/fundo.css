@@ -20,7 +20,7 @@
     margin: -30px;
     font-weight: bold;
     white-space: nowrap;
-    animation: moveRight 5s linear infinite;
+    animation: moveRight 5s linear;
   }
 
 
