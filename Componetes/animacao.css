@@ -141,12 +141,10 @@
     .main {
         margin-top: 2rem;
     }
+}
 
-/* Img para telas menores que 600px */
 @media screen and (max-width: 600px) {
-        .logo img {
-            max-height: 40px;
-        }
+    .logo img {
+        max-height: 40px;
     }
-    /* Img End */
 }
