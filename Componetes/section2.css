@@ -1,17 +1,64 @@
-
-.projects-section {
-    padding: 40px 0;
-}
-
-.projects-container {
+.card-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
-.project {
-    margin-bottom: 20px;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+.card {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    perspective: 800px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+    animation: slideUp 0.5s ease-in-out forwards;
+    opacity: 0;
+}
+
+.box1 { animation-delay: 0.5s; }
+.box2 { animation-delay: 1s; }
+.box3 { animation-delay: 1.5s; }
+.box4 { animation-delay: 2.0s; }
+.box5 { animation-delay: 2.5s; }
+
+.front, .back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: all 1s;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.front{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.back{
+    background-color: var(--primary-color);
+    transform: rotateY(-180deg);
+}
+
+.card:hover .front{
+    transform: rotateY(180deg);
+}
+
+.card:hover .back{
+    transform: rotateY(0);
+}
+
+.projects-container h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    opacity: 0;
+    animation: leftSideAni 1s ease forwards;
+    animation-delay: 1s;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
 }

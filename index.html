@@ -17,32 +17,31 @@
 </head>
 
 <body>
-    <section id="Home">
-        <header class="container">
-            <div class="page-header">
-                <div class="logo">
-                    <a href="#"><img src="img/Logo-Sem-Fundo.png" alt=""></a>
-                </div>
-                <input type="checkbox" id="click">
-        
-                <label for="click" class="mainicon">
-                    <div class="menu">
-                        <i class='bx bx-menu'></i>
-                    </div>
-                </label>
-                <ul>
-                    <li><a href="#Home" class="active" style="--navAni:1" onclick="closeMenu()">Home</a></li>
-                    <li><a href="#Resume" style="--navAni:2" onclick="closeMenu()">Resume</a></li>
-                    <li><a href="#Projects" style="--navAni:3" onclick="closeMenu()">Projects</a></li>
-                    <li><a href="#" style="--navAni:5" onclick="closeMenu()">Contact</a></li>
-                </ul>
-                <label class="mode">
-                    <input type="checkbox" id="darkModeToggle">
-                    <i class='bx bxs-moon'></i>
-                </label>
+    <header class="container">
+        <div class="page-header">
+            <div class="logo">
+                <a href="#"><img src="img/Logo-Sem-Fundo.png" alt=""></a>
             </div>
-        </header>
-
+            <input type="checkbox" id="click">
+    
+            <label for="click" class="mainicon">
+                <div class="menu">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </label>
+            <ul>
+                <li><a href="#Home" class="active" style="--navAni:1" onclick="closeMenu()">Home</a></li>
+                <li><a href="#Resume" style="--navAni:2" onclick="closeMenu()">Resume</a></li>
+                <li><a href="#Projects" style="--navAni:3" onclick="closeMenu()">Projects</a></li>
+                <li><a href="#" style="--navAni:5" onclick="closeMenu()">Contact</a></li>
+            </ul>
+            <label class="mode">
+                <input type="checkbox" id="darkModeToggle">
+                <i class='bx bxs-moon'></i>
+            </label>
+        </div>
+    </header>
+    <section class="Home" id="Home">
         <div class="container">
             <div class="main">
                 <div class="detail">
@@ -87,26 +86,53 @@
         <!-- Seção de Projetos -->
     <section id="Projects" class="projects-section">
         <div class="main-projects">
-            </div>
-            <div class="container">
-                <h2>Projetcs</h2>
-            </div>
-
             <div class="container projects-container">
-            
-                <div class="project">
-                    <h3>Nome do Projeto 1</h3>
-                    <p>Descrição do Projeto 1.</p>
-
+                <h2>Projetos</h2>
+            </div>
+            <div class="card-container">
+                <div class="card box1">
+                    <div class="front">
+                        <h2>Jogos em C/C++</h2>
+                    </div>
+                    <div class="back">
+                        Verso do Card
+                    </div>
                 </div>
-
-                <div class="project">
-                    <h3>Nome do Projeto 2</h3>
-                    <p>Descrição do Projeto 2.</p>
+                <div class="card box2">
+                    <div class="front">
+                        <h2>Website Responsivo</h2>
+                    </div>
+                    <div class="back">
+                        Verso do Card
+                    </div>
                 </div>
-
+                <div class="card box3">
+                    <div class="front">
+                        <h2>App Mobile</h2>
+                    </div>
+                    <div class="back">
+                        Verso do Card
+                    </div>
+                </div>
+                <div class="card box4">
+                    <div class="front">
+                        <h2>Projeto de IA</h2>
+                    </div>
+                    <div class="back">
+                        Verso do Card
+                    </div>
+                </div>
+                <div class="card box5">
+                    <div class="front">
+                        <h2>Site de Compras Online</h2>
+                    </div>
+                    <div class="back">
+                        Verso do Card
+                    </div>
+                </div>
             </div>
         </div>
+           
     </section>
     <script src="assets/TrocadeCor.js"></script>
     <script src="assets/AniRolagem.js"></script>
