@@ -1,67 +1,63 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Componetes/fundo.css">
-    <link rel="stylesheet" href="Componetes/geral.css">
-    <link rel="stylesheet" href="Componetes/footer.css">
-    <link rel="stylesheet" href="Componetes/section.css">
-    <link rel="stylesheet" href="Componetes/projects.css">
-    <link rel="icon" href="https://static-00.iconduck.com/assets.00/portfolio-icon-2048x2048-hdd0c1f0.png">
-    <title>Portifolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="Componetes/style.css">
+    <title>Portfolio</title>
 </head>
+
 <body>
-  <div class="geral">
-  <section id="Informacoes" class="content">
-    <div class="text">
-      <p class="SOFTWARE">SOFTWARE ENGINEER</p>
-      <h1> 
-        <span>HI, I'M</span> 
-        <span class="mateus" style="color: rgb(137, 95, 229); margin-left: 2px;">MATEUS</span>
-      </h1>
-      <p class="texts">Hello, I am a Computer Science student. I'm 21 years old and welcome to my portfolio.</p>
-      <div class="work">
-        <h2>Check out my work</h2>
-      </div>
-      <h3 class="aaaaaa">I bet you gonna be impressed with my work...</h3>
-      <p class="bbbbb">...or not, but since I have your attention, what if you check out my projects?</p>
-    </div>
-    <div class="img">
-      <img src="img/Desenho.jpg" alt="">
-    </div>
-  </section>
-  
-  <section id="projects" class="content">
-    <h1>PROJECTS</h1>
+    <section>
+        <header class="container">
+            <div class="page-header">
+                <div class="logo">
+                    <a href="#"></a>
+                </div>
+                <input type="checkbox" id="click">
+    
+                <label for="click" class="mainicon">
+                    <div class="menu">
+                        <i class='bx bx-menu'></i>
+                    </div>
+                </label>
+                <ul>
+                    <li><a href="#"  class="active" style="--navAni:1">Home</a></li>
+                    <li><a href="#" style="--navAni:2">About</a></li>
+                    <li><a href="#" style="--navAni:3">Skills</a></li>
+                    <li><a href="#" style="--navAni:5">Contact</a></li>
+                </ul>
+                <label class="mode">
+                    <input type="checkbox" id="darkModeToggle">
+                    <i class='bx bxs-moon'></i>
+                </label>
+            </div>
+        </header>
+    
+        <div class="container">
+            <div class="main">
+                <div class="detail">
+                    <h3>Hi, I'm</h3>
+                    <h1><span style="color:#52489C;">Mateus</span> Marques </h1> 
+                    <p>Computer Science student eager to explore the vast and dynamic world of technology.  I am embarking on a journey to enhance my skills and knowledge.</p>  
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/mateusmarquessz/" style="--socialAni:1" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://www.instagram.com/mateusmarquessz/" style="--socialAni:2" target="_blank"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://github.com/mateusmarquessz" style="--socialAni:3" target="_blank"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+                <div class="images">
+                    <img src="img.png" alt="" class="img-w">
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div class="parent">
-      <div class="div1">
-        <a href="https://github.com/mateusmarquessz/Convolutional-neural-network" target="_blank">Convolutional Neural Network </a>
-      </div>
-
-      <div class="div2">
-        <a href="https://github.com/mateusmarquessz/Jogos-Em-C" target="_blank">Jogos em C </a>
-      </div>
-      <div class="div3">
-        <a href="https://github.com/mateusmarquessz/Exercicios-de-logica-de-Programacao-em-C" target="_blank">Exercícios de Lógica de Programação em C++ </a>
-      </div>
-      <div class="div4">
-        <a href="https://mateusmarquessz.github.io/Pokedex-DIO/" target="_blank">Pokédex Online com a PokeAPI </a>
-      </div>
-      <div class="div5">
-        <a href="https://github.com/mateusmarquessz/Java-COMPLETO-2023-POO-Projetos" target="_blank">Curso de Java Completo </a>
-      </div>
-      </div>
-      <footer>
-        <p>&copy; Mateus Cesar Marques</p>
-        <a href="https://github.com/mateusmarquessz" target="_blank">&copy; GITHUB</a>
-        <a href="https://www.linkedin.com/in/mateusmarquessz/" target="_blank">&copy; Linkedin</a>
-    </footer>
-    </div>
-  </section>
-  <script src="assets/Fundo.js"></script>
-  <script src="assets/Click.js"></script>
-  <script src="assets/Seta.js"></script>
+    <script src="assets/TrocadeCor.js"></script>
 </body>
+
 </html>
