@@ -33,7 +33,5 @@
     opacity: 0;
     animation: leftSideAni 1s ease forwards;
     animation-delay: 1s;
-}
-
-.main-resume{
+    margin-bottom: 1rem;
 }
