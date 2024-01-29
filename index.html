@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="Componetes/style.css">
     <link rel="stylesheet" href="Componetes/nav.css">
     <link rel="stylesheet" href="Componetes/section1.css">
+    <link rel="stylesheet" href="Componetes/section2.css">
     <link rel="stylesheet" href="Componetes/animacao.css">
     <link rel="icon" href="https://static-00.iconduck.com/assets.00/portfolio-icon-2048x2048-hdd0c1f0.png" type="image/x-icon">
     <title>Portfolio</title>
@@ -22,17 +23,17 @@
                     <a href="#"><img src="img/Logo-Sem-Fundo.png" alt=""></a>
                 </div>
                 <input type="checkbox" id="click">
-    
+        
                 <label for="click" class="mainicon">
                     <div class="menu">
                         <i class='bx bx-menu'></i>
                     </div>
                 </label>
                 <ul>
-                    <li><a href="#"  class="active" style="--navAni:1">Home</a></li>
-                    <li><a href="#" style="--navAni:2">Resume</a></li>
-                    <li><a href="#" style="--navAni:3">Projects</a></li>
-                    <li><a href="#" style="--navAni:5">Contact</a></li>
+                    <li><a href="#" class="active" style="--navAni:1" onclick="closeMenu()">Home</a></li>
+                    <li><a href="#" style="--navAni:2" onclick="closeMenu()">Resume</a></li>
+                    <li><a href="#Projects" style="--navAni:3" onclick="closeMenu()">Projects</a></li>
+                    <li><a href="#" style="--navAni:5" onclick="closeMenu()">Contact</a></li>
                 </ul>
                 <label class="mode">
                     <input type="checkbox" id="darkModeToggle">
@@ -60,7 +61,31 @@
         </div>
     </section>
 
+        <!-- Seção de Projetos -->
+    <section id="Projects" class="projects-section">
+        <div class="container">
+            <h2>Projetos</h2>
+        </div>
+
+        <div class="container projects-container">
+        
+            <div class="project">
+                <h3>Nome do Projeto 1</h3>
+                <p>Descrição do Projeto 1.</p>
+
+            </div>
+
+            <div class="project">
+                <h3>Nome do Projeto 2</h3>
+                <p>Descrição do Projeto 2.</p>
+                
+            </div>
+
+        </div>
+    </section>
     <script src="assets/TrocadeCor.js"></script>
+    <script src="assets/AniRolagem.js"></script>
+    <script src="assets/fechar.js"></script>
 </body>
 
 </html>
