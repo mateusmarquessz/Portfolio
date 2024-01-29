@@ -150,3 +150,18 @@
         max-height: 40px;
     }
 }
+
+@keyframes slideUp {
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .Home{
+        display: flex;
+        position: sticky;
+        margin-top: -8rem;
+    }
+}
