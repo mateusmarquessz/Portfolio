@@ -13,4 +13,4 @@ const darkModeToggle = document.getElementById('darkModeToggle');
                 body.classList.remove('dark-mode');
                 localStorage.setItem('darkMode', 'disabled');
             }
-        });
+});
