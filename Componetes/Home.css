@@ -1,7 +1,6 @@
 .Home{
     display: flex;
     position: sticky;
-    margin-top: 20rem;
 }
 .main {
     padding: 6rem 0;
