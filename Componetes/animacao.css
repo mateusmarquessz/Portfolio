@@ -159,9 +159,7 @@
   }
 
   @media screen and (max-width: 600px) {
-    .Home{
-        display: flex;
-        position: sticky;
+    .Principal{
         margin-top: -8rem;
     }
 }

@@ -8,9 +8,9 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="Componetes/style.css">
     <link rel="stylesheet" href="Componetes/nav.css">
-    <link rel="stylesheet" href="Componetes/section1.css">
+    <link rel="stylesheet" href="Componetes/Home.css">
     <link rel="stylesheet" href="Componetes/Resumo.css">
-    <link rel="stylesheet" href="Componetes/section2.css">
+    <link rel="stylesheet" href="Componetes/Projects.css">
     <link rel="stylesheet" href="Componetes/animacao.css">
     <link rel="icon" href="https://static-00.iconduck.com/assets.00/portfolio-icon-2048x2048-hdd0c1f0.png" type="image/x-icon">
     <title>Portfolio</title>
@@ -41,6 +41,7 @@
             </label>
         </div>
     </header>
+<section class="Principal">
     <section class="Home" id="Home">
         <div class="container">
             <div class="main">
@@ -93,60 +94,66 @@
                 <div class="card box1">
                     <div class="front">
                         <h2>Jogos em C/C++</h2>
-                        <p>Jogos desenvolvidos em C e C++</p>
                     </div>
                     <div class="back">
-                        <p>Informações adicionais sobre o projeto aqui</p>
-                        <button onclick="openProjectLink()">Ver Projeto</button>
+                        <p>Jogos desenvolvidos em C e C++ na faculdade</p>
+                        <i>C/C++</i>
+                        <button onclick="openProjectLink('https://github.com/mateusmarquessz/Jogos-Em-C')">Ver Projeto</button>
                     </div>
                 </div>
                 <div class="card box2">
                     <div class="front">
                         <h2>Pokedex-DIO</h2>
-                        <p>Pokedex Feita no BootCamp da DIO</p>
                     </div>
                     <div class="back">
-                        <p>Informações adicionais sobre o projeto aqui</p>
-                        <button onclick="openProjectLink()">Ver Projeto</button>
+                        <p>Pokedex Feita no BootCamp da DIO</p>
+                        <span class="conjunto">
+                        <i>HTML</i>
+                        <i>CSS</i>
+                        <i>JavaScript</i>
+                    </span>
+                        <button onclick="openProjectLink('https://github.com/mateusmarquessz/Pokedex-DIO')">Ver Projeto</button>
                     </div>
                 </div>
                 <div class="card box3">
                     <div class="front">
-                        <h2>Convolutional-neural-network</h2>
-                        <p>Projeto desenvolvido no 6° período da faculdade, na disciplina de Inteligência Artificial</p>
+                        <h2>Convolutional Neural Network</h2>
                     </div>
                     <div class="back">
-                        <p>Informações adicionais sobre o projeto aqui</p>
-                        <button onclick="openProjectLink()">Ver Projeto</button>
+                        <p>Projeto desenvolvido no 6° período da faculdade, na disciplina de Inteligência Artificial</p>
+                        <i>Python</i>
+                        <button onclick="openProjectLink('https://github.com/mateusmarquessz/Convolutional-neural-network')">Ver Projeto</button>
                     </div>
                 </div>
                 <div class="card box4">
                     <div class="front">
-                        <h2>logica de Programacao</h2>
-                        <p>Exercicios de Logica de Programacao</p>
+                        <h2>Logica de Programacao</h2>
                     </div>
                     <div class="back">
-                        <p>Informações adicionais sobre o projeto aqui</p>
-                        <button onclick="openProjectLink()">Ver Projeto</button>
+                        <p>Exercicios de Logica de Programacao</p>
+                        <i>C/C++</i>
+                        <button onclick="openProjectLink('https://github.com/mateusmarquessz/Exercicios-de-logica-de-Programacao-em-C')">Ver Projeto</button>
                     </div>
                 </div>
                 <div class="card box5">
                     <div class="front">
                         <h2>Site de Compras Online</h2>
-                        <p>Loja virtual de Compra de Games</p>
                     </div>
                     <div class="back">
-                        <p>Informações adicionais sobre o projeto aqui</p>
-                        <button onclick="openProjectLink()">Ver Projeto</button>
+                        <p>Loja virtual de Compra de Games</p>
+                        <i>React</i>
+                        <button onclick="openProjectLink('https://github.com/mateusmarquessz/VideoGame-Store')">Ver Projeto</button>
                     </div>
                 </div>
             </div>
         </div>
            
     </section>
+</section>
     <script src="assets/TrocadeCor.js"></script>
     <script src="assets/AniRolagem.js"></script>
     <script src="assets/fechar.js"></script>
+    <script src="assets/AbrirProjetos.js"></script>
 </body>
 
 </html>
