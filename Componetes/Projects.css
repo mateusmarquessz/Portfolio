@@ -3,6 +3,7 @@
     justify-content: space-between;
     margin-left: 200px;
     margin-right: 200px;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -15,6 +16,7 @@
     animation: slideUp 0.5s ease-in-out forwards;
     opacity: 0;
     margin-bottom: 20px;
+    flex: 1 1 250px;
 }
 
 .card h2, p, button {
@@ -24,12 +26,13 @@
 .card h2 {
     font-size: 1.5rem;
     margin-bottom: 10px;
+    margin-left: 12px;
 }
 
 .card p {
     font-size: 1em;
     margin-bottom: 15px;
-    
+    margin-left: 15px;    
 }
 
 .conjunto{
