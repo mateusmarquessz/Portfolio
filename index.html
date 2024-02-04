@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="Componetes/Resumo.css">
     <link rel="stylesheet" href="Componetes/Projects.css">
     <link rel="stylesheet" href="Componetes/animacao.css">
-    <link rel="icon" href="https://static-00.iconduck.com/assets.00/portfolio-icon-2048x2048-hdd0c1f0.png" type="image/x-icon">
+    <link rel="icon" href="https://static-00.iconduck.com/assets.00/portfolio-icon-2048x2048-hdd0c1f0.png"
+        type="image/x-icon">
     <title>Portfolio</title>
 </head>
 
@@ -23,7 +24,7 @@
                 <a href="#"><img src="img/Logo-Sem-Fundo.png" alt=""></a>
             </div>
             <input type="checkbox" id="click">
-    
+
             <label for="click" class="mainicon">
                 <div class="menu">
                     <i class='bx bx-menu'></i>
@@ -41,119 +42,138 @@
             </label>
         </div>
     </header>
-<section class="Principal">
-    <section class="Home" id="Home">
-        <div class="container">
-            <div class="main">
-                <div class="detail">
-                    <h3>Hi, I'm</h3>
-                    <h1><span style="color:#52489C;">Mateus</span> Marques </h1> 
-                    <p>Computer Science student eager to explore the vast and dynamic world of technology.  I am embarking on a journey to enhance my skills and knowledge.</p>  
-                    <div class="social">
-                        <a href="https://www.linkedin.com/in/mateusmarquessz/" style="--socialAni:1" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                        <a href="https://www.instagram.com/mateusmarquessz/" style="--socialAni:2" target="_blank"><i class='bx bxl-instagram'></i></a>
-                        <a href="https://github.com/mateusmarquessz" style="--socialAni:3" target="_blank`"><i class='bx bxl-github'></i></a>
+    <section class="Principal">
+        <section class="Home" id="Home">
+            <div class="container">
+                <div class="main">
+                    <div class="detail">
+                        <h3>Hi, I'm</h3>
+                        <h1><span style="color:#52489C;">Mateus</span> Marques </h1>
+                        <p>Computer Science student eager to explore the vast and dynamic world of technology. I am
+                            embarking on a journey to enhance my skills and knowledge.</p>
+                        <div class="social">
+                            <a href="https://www.linkedin.com/in/mateusmarquessz/" style="--socialAni:1"
+                                target="_blank"><i class='bx bxl-linkedin'></i></a>
+                            <a href="https://www.instagram.com/mateusmarquessz/" style="--socialAni:2"
+                                target="_blank"><i class='bx bxl-instagram'></i></a>
+                            <a href="https://github.com/mateusmarquessz" style="--socialAni:3" target="_blank`"><i
+                                    class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                    <div class="images">
+                        <img src="img/importante.jpg" alt="" class="img-w">
                     </div>
                 </div>
-                <div class="images">
-                    <img src="img/importante.jpg" alt="" class="img-w">
+            </div>
+        </section>
+
+        <!-- Secao de Resumo-->
+        <section id="Resume" class="resume-section">
+            <div class="main-resume">
+                <div class="container resume-container">
+                    <h2>Resume</h2>
+                </div>
+
+                <div class="container">
+                    <div class="resume-content">
+                        <p>
+                            Hello, I'm Mateus Marques, a Computer Science student super excited about technology and
+                            innovation. Throughout my academic journey, I've delved into various areas such as
+                            programming, web development, and algorithms. I'm always seeking challenges and
+                            opportunities to learn and grow professionally. Besides my studies, I love open-source
+                            projects and am constantly exploring new technologies. If you're looking for someone
+                            passionate about tech, with solid skills and a willingness to innovate, I'm ready to take on
+                            challenging projects.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <a href="curriculo/Curriculo.pdf" target="_blank" download class="download-button">Baixe o
+                        Currículo</a>
                 </div>
             </div>
-        </div>
-    </section>
-
-<!-- Secao de Resumo-->
-    <section id="Resume" class="resume-section">
-        <div class="main-resume">
-            <div class="container resume-container">
-                <h2>Resume</h2>
-            </div>
-
-            <div class="container">
-                <div class="resume-content">
-                    <p>
-                    Hello, I'm Mateus Marques, a Computer Science student super excited about technology and innovation. Throughout my academic journey, I've delved into various areas such as programming, web development, and algorithms. I'm always seeking challenges and opportunities to learn and grow professionally. Besides my studies, I love open-source projects and am constantly exploring new technologies. If you're looking for someone passionate about tech, with solid skills and a willingness to innovate, I'm ready to take on challenging projects.
-                    </p>
-                </div>
-            </div>
-
-            <div class="container">
-                <a href="curriculo/Curriculo.pdf" target="_blank" download class="download-button">Baixe o Currículo</a>
-            </div>
-        </div>
-    </section>
+        </section>
 
 
         <!-- Seção de Projetos -->
-    <section id="Projects" class="projects-section">
-        <div class="main-projects">
-            <div class="container projects-container">
-                <h2>Projects</h2>
+        <section id="Projects" class="projects-section">
+            <div class="main-projects">
+                <div class="container projects-container">
+                    <h2>Projects</h2>
+                </div>
+                <div class="card-container">
+                    <div class="card box1">
+                        <div class="front">
+                            <h2>Jogos em C/C++</h2>
+                        </div>
+                        <div class="back">
+                            <p>Jogos desenvolvidos em C e C++ na faculdade</p>
+                            <i>C/C++</i>
+                            <button onclick="openProjectLink('https://github.com/mateusmarquessz/Jogos-Em-C')">Ver
+                                Projeto</button>
+                        </div>
+                    </div>
+                    <div class="card box2">
+                        <div class="front">
+                            <h2>Pokedex-DIO</h2>
+                        </div>
+                        <div class="back">
+                            <p>Pokedex Feita no BootCamp da DIO</p>
+                            <span class="conjunto">
+                                <i>HTML</i>
+                                <i>CSS</i>
+                                <i>JavaScript</i>
+                            </span>
+                            <button onclick="openProjectLink('https://github.com/mateusmarquessz/Pokedex-DIO')">Ver
+                                Projeto</button>
+                        </div>
+                    </div>
+                    <div class="card box3">
+                        <div class="front">
+                            <h2>Convolutional Neural Network</h2>
+                        </div>
+                        <div class="back">
+                            <p>Projeto desenvolvido no 6° período da faculdade, na disciplina de Inteligência Artificial
+                            </p>
+                            <i>Python</i>
+                            <button
+                                onclick="openProjectLink('https://github.com/mateusmarquessz/Convolutional-neural-network')">Ver
+                                Projeto</button>
+                        </div>
+                    </div>
+                    <div class="card box4">
+                        <div class="front">
+                            <h2>Logica de Programacao</h2>
+                        </div>
+                        <div class="back">
+                            <p>Exercicios de Logica de Programacao</p>
+                            <i>C/C++</i>
+                            <button
+                                onclick="openProjectLink('https://github.com/mateusmarquessz/Exercicios-de-logica-de-Programacao-em-C')">Ver
+                                Projeto</button>
+                        </div>
+                    </div>
+                    <div class="card box5">
+                        <div class="front">
+                            <h2>Site de Compras Online</h2>
+                        </div>
+                        <div class="back">
+                            <p>Loja virtual de Compra de Games</p>
+                            <i>React</i>
+                            <button onclick="openProjectLink('https://github.com/mateusmarquessz/VideoGame-Store')">Ver
+                                Projeto</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="card-container">
-                <div class="card box1">
-                    <div class="front">
-                        <h2>Jogos em C/C++</h2>
-                    </div>
-                    <div class="back">
-                        <p>Jogos desenvolvidos em C e C++ na faculdade</p>
-                        <i>C/C++</i>
-                        <button onclick="openProjectLink('https://github.com/mateusmarquessz/Jogos-Em-C')">Ver Projeto</button>
-                    </div>
-                </div>
-                <div class="card box2">
-                    <div class="front">
-                        <h2>Pokedex-DIO</h2>
-                    </div>
-                    <div class="back">
-                        <p>Pokedex Feita no BootCamp da DIO</p>
-                        <span class="conjunto">
-                        <i>HTML</i>
-                        <i>CSS</i>
-                        <i>JavaScript</i>
-                    </span>
-                        <button onclick="openProjectLink('https://github.com/mateusmarquessz/Pokedex-DIO')">Ver Projeto</button>
-                    </div>
-                </div>
-                <div class="card box3">
-                    <div class="front">
-                        <h2>Convolutional Neural Network</h2>
-                    </div>
-                    <div class="back">
-                        <p>Projeto desenvolvido no 6° período da faculdade, na disciplina de Inteligência Artificial</p>
-                        <i>Python</i>
-                        <button onclick="openProjectLink('https://github.com/mateusmarquessz/Convolutional-neural-network')">Ver Projeto</button>
-                    </div>
-                </div>
-                <div class="card box4">
-                    <div class="front">
-                        <h2>Logica de Programacao</h2>
-                    </div>
-                    <div class="back">
-                        <p>Exercicios de Logica de Programacao</p>
-                        <i>C/C++</i>
-                        <button onclick="openProjectLink('https://github.com/mateusmarquessz/Exercicios-de-logica-de-Programacao-em-C')">Ver Projeto</button>
-                    </div>
-                </div>
-                <div class="card box5">
-                    <div class="front">
-                        <h2>Site de Compras Online</h2>
-                    </div>
-                    <div class="back">
-                        <p>Loja virtual de Compra de Games</p>
-                        <i>React</i>
-                        <button onclick="openProjectLink('https://github.com/mateusmarquessz/VideoGame-Store')">Ver Projeto</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-           
+        </section>
     </section>
-</section>
     <script src="assets/TrocadeCor.js"></script>
     <script src="assets/AniRolagem.js"></script>
     <script src="assets/fechar.js"></script>
     <script src="assets/AbrirProjetos.js"></script>
+    <script src="assets/abrirContact.js"></script>
 </body>
 
 </html>
