@@ -3,7 +3,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         e.preventDefault();
 
         const targetId = this.getAttribute('href');
-        if (targetId) {
+        
+        // Check if the targetId is not just '#'
+        if (targetId && targetId !== '#') {
             const targetElement = document.querySelector(targetId);
             if (targetElement) {
                 targetElement.scrollIntoView({
