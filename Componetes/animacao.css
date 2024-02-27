@@ -83,6 +83,27 @@
     }
 }
 
+
+@media screen and (max-width: 1457px) {
+    .Principal {
+        margin-top: 70rem;
+    }
+}
+
+
+
+@media screen and (max-width: 1197px) {
+    .Principal {
+        margin-top: 100rem;
+    }
+}
+
+@media screen and (max-width: 936px) {
+    .Principal {
+        margin-top: 190rem;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .container {
         padding: 0 1.6rem;
