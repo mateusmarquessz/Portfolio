@@ -70,6 +70,9 @@
 .box3 { animation-delay: 1.5s; }
 .box4 { animation-delay: 2.0s; }
 .box5 { animation-delay: 2.5s; }
+.box6 { animation-delay: 3.0s; }
+.box7 { animation-delay: 3.5s; }
+.box8 { animation-delay: 4.0s; }
 
 .front, .back{
     width: 100%;
