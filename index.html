@@ -34,7 +34,7 @@
                 <li><a href="#Home" class="active" style="--navAni:1" onclick="closeMenu()">Home</a></li>
                 <li><a href="#Resume" style="--navAni:2" onclick="closeMenu()">Resume</a></li>
                 <li><a href="#Projects" style="--navAni:3" onclick="closeMenu()">Projects</a></li>
-                <li><a href="#" style="--navAni:5" onclick="closeMenu()">Contact</a></li>
+                <li><a href="#" id="contact-link" style="--navAni:5" onclick="closeMenu()">Contact</a></li>
             </ul>
             <label class="mode">
                 <input type="checkbox" id="darkModeToggle">
@@ -42,74 +42,86 @@
             </label>
         </div>
     </header>
-        <section class="Home" id="Home">
+    <section class="Home" id="Home">
+        <div class="container">
+            <div class="main">
+                <div class="detail">
+                    <h3>Hi, I'm</h3>
+                    <h1><span style="color:#52489C;">Mateus</span> Marques </h1>
+                    <p>Computer Science student eager to explore the vast and dynamic world of technology. I am
+                        embarking on a journey to enhance my skills and knowledge.</p>
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/mateusmarquessz/" style="--socialAni:1" target="_blank"><i
+                                class='bx bxl-linkedin'></i></a>
+                        <a href="https://www.instagram.com/mateusmarquessz/" style="--socialAni:2" target="_blank"><i
+                                class='bx bxl-instagram'></i></a>
+                        <a href="https://github.com/mateusmarquessz" style="--socialAni:3" target="_blank`"><i
+                                class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+                <div class="images">
+                    <img src="img/importante.jpg" alt="" class="img-w">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secao de Resumo-->
+    <section id="Resume" class="resume-section">
+        <div class="main-resume">
+            <div class="container resume-container">
+                <h2>Resume</h2>
+            </div>
+
             <div class="container">
-                <div class="main">
-                    <div class="detail">
-                        <h3>Hi, I'm</h3>
-                        <h1><span style="color:#52489C;">Mateus</span> Marques </h1>
-                        <p>Computer Science student eager to explore the vast and dynamic world of technology. I am
-                            embarking on a journey to enhance my skills and knowledge.</p>
-                        <div class="social">
-                            <a href="https://www.linkedin.com/in/mateusmarquessz/" style="--socialAni:1"
-                                target="_blank"><i class='bx bxl-linkedin'></i></a>
-                            <a href="https://www.instagram.com/mateusmarquessz/" style="--socialAni:2"
-                                target="_blank"><i class='bx bxl-instagram'></i></a>
-                            <a href="https://github.com/mateusmarquessz" style="--socialAni:3" target="_blank`"><i
-                                    class='bx bxl-github'></i></a>
-                        </div>
-                    </div>
-                    <div class="images">
-                        <img src="img/importante.jpg" alt="" class="img-w">
-                    </div>
+                <div class="resume-content">
+                    <p>
+                        Hello, I'm Mateus Marques, a Computer Science student super excited about technology and
+                        innovation. Throughout my academic journey, I've delved into various areas such as
+                        programming, web development, and algorithms. I'm always seeking challenges and
+                        opportunities to learn and grow professionally. Besides my studies, I love open-source
+                        projects and am constantly exploring new technologies. If you're looking for someone
+                        passionate about tech, with solid skills and a willingness to innovate, I'm ready to take on
+                        challenging projects.
+                    </p>
                 </div>
             </div>
-        </section>
 
-        <!-- Secao de Resumo-->
-        <section id="Resume" class="resume-section">
-            <div class="main-resume">
-                <div class="container resume-container">
-                    <h2>Resume</h2>
-                </div>
-
-                <div class="container">
-                    <div class="resume-content">
-                        <p>
-                            Hello, I'm Mateus Marques, a Computer Science student super excited about technology and
-                            innovation. Throughout my academic journey, I've delved into various areas such as
-                            programming, web development, and algorithms. I'm always seeking challenges and
-                            opportunities to learn and grow professionally. Besides my studies, I love open-source
-                            projects and am constantly exploring new technologies. If you're looking for someone
-                            passionate about tech, with solid skills and a willingness to innovate, I'm ready to take on
-                            challenging projects.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="container">
-                    <a href="curriculo/Mateus Cesar Marques.pdf" target="_blank" download class="download-button">Baixe o
-                        Currículo</a>
-                </div>
+            <div class="container">
+                <a href="curriculo/Mateus Marques.pdf" target="_blank" download class="download-button">Baixe o
+                    Currículo</a>
             </div>
-        </section>
-        <!-- Seção de Projetos -->
-        <section id="Projects" class="projects-section">
-            <div class="main-projects">
-                <div class="container projects-container">
-                    <h2>Projects</h2>
-                </div>
-                <div class="card-container">
-                </div>
+        </div>
+    </section>
+    <!-- Seção de Projetos -->
+    <section id="Projects" class="projects-section">
+        <div class="main-projects">
+            <div class="container projects-container">
+                <h2>Projects</h2>
             </div>
-        </section>        
-        <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-        <div class="elfsight-app-307a83e3-282b-4634-915d-d2ceed6a8ea8" data-elfsight-app-lazy></div>
+            <div class="card-container">
+            </div>
+        </div>
+    </section>
+    <script id="" src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <div class="elfsight-app-307a83e3-282b-4634-915d-d2ceed6a8ea8" data-elfsight-app-lazy></div>
     <script src="assets/TrocadeCor.js"></script>
     <script src="assets/AniRolagem.js"></script>
     <script src="assets/fechar.js"></script>
     <script src="assets/AbrirProjetos.js"></script>
     <script src="assets/abrirContact.js"></script>
+    <script>
+        document.getElementById("contact-link").addEventListener("click", function (event) {
+            event.preventDefault();
+            const contactButton = document.querySelector(".es-forms-floating-button");
+            if (contactButton) {
+                contactButton.click();
+            } else {
+                console.error("Botão de contato não encontrado. Certifique-se de que o Elfsight foi carregado.");
+            }
+        });
+
+    </script>
 </body>
 
 </html>
