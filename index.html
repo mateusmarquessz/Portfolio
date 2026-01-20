@@ -4,14 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="img/portfolio.png" type="image/png">
     <link rel="stylesheet" href="Componetes/style.css">
     <link rel="stylesheet" href="Componetes/nav.css">
     <link rel="stylesheet" href="Componetes/Home.css">
     <link rel="stylesheet" href="Componetes/Resumo.css">
     <link rel="stylesheet" href="Componetes/Projects.css">
     <link rel="stylesheet" href="Componetes/animacao.css">
+    <link rel="stylesheet" href="Componetes/footer.css">
+    <link rel="stylesheet" href="Componetes/Experiencia.css">
+    <link rel="stylesheet" href="Componetes/skill.css">
+    <link rel="stylesheet" href="Componetes/formacao.css">
     <link rel="icon" href="https://static-00.iconduck.com/assets.00/portfolio-icon-2048x2048-hdd0c1f0.png"
         type="image/x-icon">
     <title>Portfolio</title>
@@ -21,7 +27,7 @@
     <header class="container">
         <div class="page-header">
             <div class="logo">
-                <a><img src="img/Logo-Sem-Fundo.png" alt=""></a>
+                <a><img src="img/logo.png" alt=""></a>
             </div>
             <input type="checkbox" id="click">
 
@@ -31,10 +37,10 @@
                 </div>
             </label>
             <ul>
-                <li><a href="#Home" class="active" style="--navAni:1" onclick="closeMenu()">Home</a></li>
-                <li><a href="#Resume" style="--navAni:2" onclick="closeMenu()">Resume</a></li>
-                <li><a href="#Projects" style="--navAni:3" onclick="closeMenu()">Projects</a></li>
-                <li><a href="#" id="contact-link" style="--navAni:5" onclick="closeMenu()">Contact</a></li>
+                <li><a href="#Home" class="active" style="--navAni:1" onclick="closeMenu()">Início</a></li>
+                <li><a href="#Resume" style="--navAni:2" onclick="closeMenu()">Resumo</a></li>
+                <li><a href="#Projects" style="--navAni:3" onclick="closeMenu()">Projetos</a></li>
+                <li><a href="#" id="contact-link" style="--navAni:5" onclick="closeMenu()">Contato</a></li>
             </ul>
             <label class="mode">
                 <input type="checkbox" id="darkModeToggle">
@@ -42,14 +48,16 @@
             </label>
         </div>
     </header>
+
     <section class="Home" id="Home">
         <div class="container">
             <div class="main">
                 <div class="detail">
-                    <h3>Hi, I'm</h3>
+                    <h3>Olá, eu sou</h3>
                     <h1><span style="color:#52489C;">Mateus</span> Marques </h1>
-                    <p>Computer Science student eager to explore the vast and dynamic world of technology. I am
-                        embarking on a journey to enhance my skills and knowledge.</p>
+                    <p>Engenheiro de Software Júnior formado em Ciência da Computação, com foco em desenvolvimento
+                        back-end, integração de sistemas e uso de serviços em nuvem. Sempre buscando evoluir
+                        tecnicamente e entregar soluções eficientes.</p>
                     <div class="social">
                         <a href="https://www.linkedin.com/in/mateusmarquessz/" style="--socialAni:1" target="_blank"><i
                                 class='bx bxl-linkedin'></i></a>
@@ -60,7 +68,40 @@
                     </div>
                 </div>
                 <div class="images">
-                    <img src="img/importante.jpg" alt="" class="img-w">
+                    <img src="img/1761887788947.jpg" alt="" class="img-w">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Skills" class="skills-section">
+        <div class="container">
+            <h2>Tecnologias</h2>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Back-end</h3>
+                    <p>Python, FastAPI, Node.js, Java, Spring Boot</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Front-end</h3>
+                    <p>HTML, CSS, JavaScript, React</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Banco de Dados</h3>
+                    <p>PostgreSQL, MySQL, MongoDB</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Cloud & DevOps</h3>
+                    <p>AWS (EC2, S3, Amplify), Docker</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Ferramentas & Métodos</h3>
+                    <p>Git, GitHub, Scrum, Clean Code</p>
                 </div>
             </div>
         </div>
@@ -70,44 +111,120 @@
     <section id="Resume" class="resume-section">
         <div class="main-resume">
             <div class="container resume-container">
-                <h2>Resume</h2>
+                <h2>Resumo</h2>
             </div>
 
             <div class="container">
                 <div class="resume-content">
                     <p>
-                        Hello, I'm Mateus Marques, a Computer Science student super excited about technology and
-                        innovation. Throughout my academic journey, I've delved into various areas such as
-                        programming, web development, and algorithms. I'm always seeking challenges and
-                        opportunities to learn and grow professionally. Besides my studies, I love open-source
-                        projects and am constantly exploring new technologies. If you're looking for someone
-                        passionate about tech, with solid skills and a willingness to innovate, I'm ready to take on
-                        challenging projects.
+                        Olá, meu nome é Mateus Marques, sou formado em Ciência da Computação pelo IFSULDEMINAS e atuo
+                        como Engenheiro de Software Júnior, com foco em desenvolvimento back-end e integração de
+                        sistemas.
+
+                        Tenho experiência prática com Python e FastAPI, desenvolvimento de novas funcionalidades,
+                        correção de bugs e evolução de sistemas em produção. Também atuo com serviços em nuvem da AWS
+                        (EC2, S3 e Amplify), além de bancos de dados relacionais e não relacionais como PostgreSQL,
+                        MySQL e MongoDB.
+
+                        Ao longo da minha formação acadêmica, trabalhei com algoritmos, estruturas de dados,
+                        desenvolvimento web, além de tecnologias como Java, JavaScript, React e Node.js. Possuo ainda
+                        noções de Arquitetura de Software, Docker, metodologias ágeis e princípios de UI/UX.
+
+                        Além da atuação como desenvolvedor, também sou Professor de TI, onde ministro aulas teóricas e
+                        práticas, incentivando o aprendizado colaborativo, o pensamento crítico e a aplicação dos
+                        conhecimentos em projetos reais.
+
+                        Sou uma pessoa focada, colaborativa e adaptável, sempre em busca de novos desafios e
+                        oportunidades para evoluir profissionalmente e contribuir com soluções tecnológicas de impacto.
                     </p>
                 </div>
             </div>
 
             <div class="container">
-                <a href="curriculo/Mateus Marques.pdf" target="_blank" download class="download-button">Baixe o
+                <a href="curriculo/Mateus marques.pdf" target="_blank" download class="download-button">Baixe o
                     Currículo</a>
             </div>
+        </div>
+    </section>
+
+    <section id="Experience" class="experience-section">
+        <div class="container">
+            <h2>Experiência Profissional</h2>
+
+            <div class="experience-item">
+                <h3>Engenheiro de Software Júnior</h3>
+                <span>2025 – Atual</span>
+
+                <ul>
+                    <li>Desenvolvimento e manutenção de APIs REST utilizando Python e FastAPI.</li>
+                    <li>Implementação de novas funcionalidades e correção de bugs em sistemas em produção.</li>
+                    <li>Integração com bancos de dados relacionais e não relacionais (PostgreSQL, MongoDB).</li>
+                    <li>Utilização de serviços AWS como EC2, S3 e Amplify para deploy e hospedagem.</li>
+                    <li>Atuação em ambiente ágil com práticas de versionamento e colaboração em equipe.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3>Professor de TI</h3>
+                <span>2025 – Atual</span>
+
+                <ul>
+                    <li>Ministração de aulas teóricas e práticas na área de Tecnologia da Informação.</li>
+                    <li>Ensino de lógica de programação, desenvolvimento web e fundamentos de computação.</li>
+                    <li>Acompanhamento de projetos práticos e incentivo ao aprendizado colaborativo.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="Education" class="education-section">
+        <div class="container">
+            <h2>Formação & Certificações</h2>
+
+            <div class="education-item">
+                <h3>Bacharelado em Ciência da Computação</h3>
+                <p>IFSULDEMINAS</p>
+            </div>
+
+            <!-- <div class="education-item">
+                <h3>Cursos e Certificações</h3>
+                <ul>
+                    <li>FastAPI – Desenvolvimento de APIs REST</li>
+                    <li>Docker para Desenvolvedores</li>
+                    <li>Fundamentos de Cloud Computing (AWS)</li>
+                    <li>Metodologias Ágeis (Scrum)</li>
+                </ul>
+            </div> -->
         </div>
     </section>
     <!-- Seção de Projetos -->
     <section id="Projects" class="projects-section">
         <div class="main-projects">
             <div class="container projects-container">
-                <h2>Projects</h2>
+                <h2>Projetos</h2>
             </div>
             <div class="card-container">
             </div>
         </div>
     </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <p>© 2026 Mateus Marques</p>
+
+            <div class="footer-social">
+                <a href="https://github.com/mateusmarquessz" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/mateusmarquessz" target="_blank">LinkedIn</a>
+                <a href="mateusmarques53@outlook.com">Email</a>
+            </div>
+        </div>
+    </footer>
+
+
     <script id="" src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
     <div class="elfsight-app-307a83e3-282b-4634-915d-d2ceed6a8ea8" data-elfsight-app-lazy></div>
     <script src="assets/TrocadeCor.js"></script>
     <script src="assets/AniRolagem.js"></script>
-    <script src="assets/fechar.js"></script>
+    <script src="assets/Cards.js"></script>
     <script src="assets/AbrirProjetos.js"></script>
     <script src="assets/abrirContact.js"></script>
     <script>
