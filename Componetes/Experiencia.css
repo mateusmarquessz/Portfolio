@@ -1,0 +1,51 @@
+.experience-section {
+    margin-top: 6.5rem;
+}
+
+.experience-section h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    opacity: 0;
+    animation: leftSideAni 1s ease forwards;
+    animation-delay: 0.8s;
+    margin-bottom: 2.5rem;
+}
+
+.experience-item {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    opacity: 0;
+    animation: topSideAni 1.2s ease forwards;
+}
+
+.experience-item h3 {
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    margin-bottom: 0.3rem;
+}
+
+.experience-item span {
+    display: block;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    opacity: 0.8;
+}
+
+.experience-item ul {
+    padding-left: 1.2rem;
+}
+
+.experience-item ul li {
+    margin-bottom: 0.6rem;
+    line-height: 1.6;
+}
+
+/* Dark mode */
+.dark-mode .experience-item {
+    background: #2a2f3a;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
