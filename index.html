@@ -21,6 +21,17 @@
     <link rel="icon" href="https://static-00.iconduck.com/assets.00/portfolio-icon-2048x2048-hdd0c1f0.png"
         type="image/x-icon">
     <title>Portfolio</title>
+    <script>
+        function toggleExperience(el) {
+            const item = el.closest('.experience-item');
+            item.classList.toggle('expanded');
+
+            el.innerText = item.classList.contains('expanded')
+                ? 'Ver menos'
+                : 'Ver mais';
+        }
+    </script>
+
 </head>
 
 <body>
@@ -162,6 +173,10 @@
                     <li>Utilização de serviços AWS como EC2, S3 e Amplify para deploy e hospedagem.</li>
                     <li>Atuação em ambiente ágil com práticas de versionamento e colaboração em equipe.</li>
                 </ul>
+
+                <span class="see-more" onclick="toggleExperience(this)">
+                    Ver mais
+                </span>
             </div>
 
             <div class="experience-item">
@@ -173,6 +188,10 @@
                     <li>Ensino de lógica de programação, desenvolvimento web e fundamentos de computação.</li>
                     <li>Acompanhamento de projetos práticos e incentivo ao aprendizado colaborativo.</li>
                 </ul>
+
+                <span class="see-more" onclick="toggleExperience(this)">
+                    Ver mais
+                </span>
             </div>
         </div>
     </section>
@@ -214,7 +233,7 @@
             <div class="footer-social">
                 <a href="https://github.com/mateusmarquessz" target="_blank">GitHub</a>
                 <a href="https://www.linkedin.com/in/mateusmarquessz" target="_blank">LinkedIn</a>
-                <a href="mateusmarques53@outlook.com">Email</a>
+                <a href="mailto:mateusmarques53@outlook.com">Email</a>
             </div>
         </div>
     </footer>

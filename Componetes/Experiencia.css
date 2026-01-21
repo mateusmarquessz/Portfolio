@@ -49,3 +49,37 @@
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
 }
 
+.experience-item .see-more {
+    display: none ;
+}
+
+
+/* Mobile - resumir experiência */
+@media (max-width: 768px) {
+    .experience-item ul {
+        max-height: 5.5rem;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+        position: static;
+        height: auto;
+        background-color: #2a2f3a;
+    }
+
+    .experience-item.expanded ul {
+        max-height: 1000px;
+    }
+
+    .experience-item .see-more {
+        display: inline-block !important;
+        margin-top: 0.8rem;
+        color: var(--primary-color);
+        cursor: pointer;
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+
+    .experience-item {
+        width: 100%;
+        max-width: 100%;
+    }
+}
