@@ -66,7 +66,7 @@
                 <div class="detail">
                     <h3>Olá, eu sou</h3>
                     <h1><span style="color:#52489C;">Mateus</span> Marques </h1>
-                    <p>Engenheiro de Software Júnior com atuação Full-Stack e Professor de Informática. Focado em construir APIs robustas, arquiteturas de dados complexas e interfaces dinâmicas de ponta a ponta.</p>
+                    <p>Engenheiro de Software Júnior na Wavoip, com atuação Full-Stack e experiência como Professor de Informática. Construo interfaces com TypeScript e React, APIs em Node.js e Python, com base sólida em arquitetura de dados e boas práticas de engenharia de software.</p>
                     <div class="social">
                         <a href="https://www.linkedin.com/in/mateusmarquessz/" style="--socialAni:1" target="_blank"><i
                                 class='bx bxl-linkedin'></i></a>
@@ -77,7 +77,7 @@
                     </div>
                 </div>
                 <div class="images">
-                    <img src="img/1761887788947.jpg" alt="" class="img-w">
+                    <img src="img/foto-perfil.jpg" alt="Foto de Mateus Marques" class="img-w">
                 </div>
             </div>
         </div>
@@ -90,17 +90,27 @@
             <div class="skills-grid">
                 <div class="skill-card">
                     <h3>Back-end</h3>
-                    <p>Python, FastAPI, Java</p>
+                    <p>Java, Spring Boot, Python, FastAPI, Node.js</p>
                 </div>
 
                 <div class="skill-card">
                     <h3>Front-end</h3>
-                    <p>HTML, CSS, JavaScript, React, Next.js</p>
+                    <p>TypeScript, React, Next.js, HTML, CSS, JavaScript</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Em aprendizado atual</h3>
+                    <p>NestJS, WebSocket/WebRTC, Socket.io, TanStack Query, Axios, Zod</p>
                 </div>
 
                 <div class="skill-card">
                     <h3>Banco de Dados</h3>
                     <p>PostgreSQL, MySQL, MongoDB</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Arquitetura & Práticas</h3>
+                    <p>SOLID, Design Patterns, Scrum, Kanban</p>
                 </div>
 
                 <div class="skill-card">
@@ -129,7 +139,7 @@
                         Engenheiro de Software Júnior (Ciência da Computação - IFSULDEMINAS) com sólida vivência em desenvolvimento Full-Stack de ponta a ponta.
                     </p>
                     <p>
-                        Construo APIs robustas e arquiteturas de dados complexas utilizando Python, FastAPI, PostgreSQL e MongoDB, integradas a interfaces dinâmicas, otimizadas e responsivas em Next.js.
+                        Atualmente atuo como Engenheiro de Software Júnior na Wavoip, desenvolvendo interfaces com TypeScript, React, Vite e Tailwind CSS integradas a APIs em Node.js, e aplicando na prática conceitos de NestJS, WebSocket/WebRTC e Socket.io. Antes disso, construí APIs robustas e arquiteturas de dados complexas com Python, FastAPI, PostgreSQL e MongoDB na MultiPare.
                     </p>
                     <p>
                         Complemento meu perfil técnico com a experiência como Professor de Informática, o que me garante excelente comunicação, visão sistêmica e facilidade estrutural para traduzir regras de negócio complexas em soluções de software eficientes.
@@ -149,8 +159,24 @@
             <h2>Experiência Profissional</h2>
 
             <div class="experience-item">
+                <h3>Analista de Suporte Técnico → Engenheiro de Software Júnior | Wavoip</h3>
+                <span>jul 2026 – Atual</span>
+
+                <ul>
+                    <li>Iniciei como Analista de Suporte Técnico (jul–ago 2026), diagnosticando bugs em APIs, webhooks, integrações SQL, CRM/PABX e chamadas via SIP.</li>
+                    <li>Promovido a Engenheiro de Software Júnior em set/2026, com base no trabalho técnico desenvolvido no suporte.</li>
+                    <li>Desenvolvimento Full-Stack com TypeScript, React, Vite, Tailwind CSS e Node.js.</li>
+                    <li>Aprendizado e aplicação prática de NestJS, WebSocket/WebRTC, Socket.io, TanStack Query, Axios e Zod.</li>
+                </ul>
+
+                <span class="see-more" onclick="toggleExperience(this)">
+                    Ver mais
+                </span>
+            </div>
+
+            <div class="experience-item">
                 <h3>Engenheiro de Software Júnior | Multipare</h3>
-                <span>jul 2025 – Atual</span>
+                <span>jul 2025 – jun 2026</span>
 
                 <ul>
                     <li>Desenvolvimento Full-Stack de plataformas web ponta a ponta, traduzindo regras de negócio complexas em soluções eficientes.</li>
@@ -180,6 +206,41 @@
             </div>
         </div>
     </section>
+
+    <!-- <section id="Highlight" class="experience-section">
+        <div class="container">
+            <h2>Destaque Técnico</h2>
+
+            <div class="experience-item">
+                <h3>Recurso "Ignorar chamada" — biblioteca webphone (Wavoip) v1.9.0</h3>
+                <span>Wavoip · v1.9.0</span>
+
+                <ul>
+                    <li><strong>Problema:</strong> ao arrastar (swipe) o card de chamada recebida para dispensar, o toque continuava tocando mesmo sem o card na tela — o ringtone reagia à fila de chamadas pendentes, não à visibilidade do card.</li>
+                    <li><strong>Solução:</strong> criei um novo botão "Ignorar" (entre Recusar e Atender) que dispensa a chamada localmente sem notificar o servidor — do lado de quem ligou, o comportamento é equivalente a uma chamada não atendida. Corrigi também o gesto de swipe para seguir a mesma lógica.</li>
+                    <li><strong>Detalhes técnicos:</strong> ajuste da tipagem interna do estado de chamadas (<code>CallSliceState.offers</code> → <code>IgnorableOffer[]</code>) e atualização da documentação pública da biblioteca.</li>
+                </ul>
+
+                <span class="see-more" onclick="toggleExperience(this)">
+                    Ver mais
+                </span>
+            </div>
+
+            <div class="experience-item">
+                <h3>Contribuições no client-website | Wavoip</h3>
+                <span>Wavoip</span>
+
+                <ul>
+                    <li>Implementei indicador de status de gravação de chamadas na interface, incluindo mensagem de clareza para quando não há gravação disponível, com as respectivas traduções.</li>
+                    <li>Contribuí com as páginas de erro 404 (não encontrado) e 401 (não autorizado), via PR revisada e mergeada.</li>
+                </ul>
+
+                <span class="see-more" onclick="toggleExperience(this)">
+                    Ver mais
+                </span>
+            </div>
+        </div>
+    </section> -->
 
     <section id="Education" class="education-section">
         <div class="container">
